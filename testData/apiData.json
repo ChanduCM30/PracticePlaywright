@@ -1,0 +1,24 @@
+{
+    "payload1": {
+        "firstname": "Ily",
+        "lastname": "Mike",
+        "totalprice": 121,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2026-12-31"
+        },
+        "additionalneeds": "South India Meals"
+    },
+    "payload2": {
+        "firstname": "Raily",
+        "lastname": "Mercy",
+        "totalprice": 162,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2025-01-01",
+            "checkout": "2026-12-31"
+        },
+        "additionalneeds": "North Karnataka Meals"
+    }
+}

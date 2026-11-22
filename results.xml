@@ -1,0 +1,13 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="7.204030999999988">
+<testsuite name="8Dropdown.spec.ts" timestamp="2026-11-14T08:14:14.745Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.146" errors="0">
+<testcase name="Dropdown test" classname="8Dropdown.spec.ts" time="4.146">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\8Dropdown-Dropdown-test-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\8Dropdown-Dropdown-test-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
