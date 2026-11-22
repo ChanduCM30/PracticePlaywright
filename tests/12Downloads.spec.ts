@@ -174,7 +174,7 @@ test("Read files XLSX", async ({ page }) => {
 
 })
 
-test.only("Read files CSV", async ({ page }) => {
+test("Read files CSV", async ({ page }) => {
 
     await page.goto("https://www.datablist.com/learn/csv/download-sample-csv-files");
 

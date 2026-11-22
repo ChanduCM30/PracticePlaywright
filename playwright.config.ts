@@ -71,10 +71,10 @@ export default defineConfig({
       // use: { ...devices['Desktop Chrome'],channel: 'chrome',storageState:"./playwright/.auth/auth.json" },
     },
 
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'], channel: 'firefox' },
-    },
+    // {
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'], channel: 'firefox' },
+    // },
 
     // {
     //   name: 'webkit',
