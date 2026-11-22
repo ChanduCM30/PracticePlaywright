@@ -107,16 +107,16 @@ const candidatesData: candidatesType[] = parse(csv, {
 
 //Read Excel from Workbook
 
-const workbook = XLSX.readFile('testdata/users.xlsx');
+const workbook = XLSX.readFile('testData/users.xlsx');
 
 //Get workSheet
 const sheetName = workbook.SheetNames[0];
 if (!sheetName) {
-    throw new Error("No worksheets found in testdata/users.xlsx");
+    throw new Error("No worksheets found in testData/users.xlsx");
 }
 const sheet = workbook.Sheets[sheetName];
 if (!sheet) {
-    throw new Error(`Worksheet "${sheetName}" not found in testdata/users.xlsx`);
+    throw new Error(`Worksheet "${sheetName}" not found in testData/users.xlsx`);
 }
 
 
@@ -127,7 +127,7 @@ const Data: candidatesType[] = XLSX.utils.sheet_to_json(sheet, {
 });
 
 if (Data.length === 0) {
-    throw new Error("No candidate records present in testdata/users.xlsx");
+    throw new Error("No candidate records present in testData/users.xlsx");
 }
 
 Data.forEach((data) => {
